@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{setspace}
+\usetikzlibrary{3d}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\geometry{a4paper, margin=1in}
+\doublespacing
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm} % Add vertical space at the top
+    
+    {\Huge \textbf{Homework 3}} \\
+    
+    \vspace{2cm}
+    
+    {\Large \textbf{Danen M. Pruitt}} \\
+    
+    \vspace{1.5cm}
+    
+    ENS, AFIT \\
+    OPER 646: Reinforcement Learning \\
+    May 2026
+    
+    \vfill % Pushes the following text to the bottom
+    
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+In this write up we will be looking at the differences between application of on-policy and off-policy Monte Carlo Control (MCC) to the Farama Foundation Gymnasium \textit{CartPole-v1} environment which consists of a pole hinged on a cart that can be moved left or right. The goal is to keep the pole vertical at each step and the agent is rewarded for every step the pole remains reasonably upright. The application of on-policy and off-policy MCC to this environment helps to illustrate the differences between these approaches particularly with regards to policy imporvement and convergence.
+
+\section{On-Policy MCC}
+In on-policy MCC, the agent learns about a policy while following that same policy. The agent generates episodes by interacting with the environment using the current policy, and then updates the action-value function based on the returns received from the episodes experienced. For this implementation and the others in this write up we used python and the OpenAI Gymnasium library to create the environment and implement the MCC algorithms. The on-policy MCC algorithm can be summarized as follows:
+\begin{enumerate}
+    \item \textbf{Algorithm parameter:} small $\epsilon > 0$
+    \item \textbf{Initialize:}
+    \begin{itemize}
+        \item $\pi \leftarrow$ an arbitrary $\epsilon$-soft policy
+        \item $Q(s, a) \in \mathbb{R}$ (arbitrarily), for all $s \in \mathcal{S}, a \in \mathcal{A}(s)$
+        \item $Returns(s, a) \leftarrow$ empty list, for all $s \in \mathcal{S}, a \in \mathcal{A}(s)$
+    \end{itemize}
+    \item \textbf{Repeat forever (for each episode):}
+    \begin{enumerate}
+        \item Generate an episode following $\pi$: $S_0, A_0, R_1, \dots, S_{T-1}, A_{T-1}, R_T$
+        \item $G \leftarrow 0$
+        \item \textbf{Loop for each step of episode, $t = T-1, T-2, \dots, 0$:}
+        \begin{enumerate}
+            \item $G \leftarrow \gamma G + R_{t+1}$
+            \item \textbf{Unless} the pair $S_t, A_t$ appears in $S_0, A_0, S_1, A_1 \dots, S_{t-1}, A_{t-1}$:
+            \begin{itemize}
+                \item Append $G$ to $Returns(S_t, A_t)$
+                \item $Q(S_t, A_t) \leftarrow \text{average}(Returns(S_t, A_t))$
+                \item $A^* \leftarrow \arg\max_a Q(S_t, a)$ \hfill (with ties broken arbitrarily)
+                \item For all $a \in \mathcal{A}(S_t)$:
+                \[
+                \pi(a|S_t) \leftarrow 
+                \begin{cases} 
+                1 - \epsilon + \epsilon/|\mathcal{A}(S_t)| & \text{if } a = A^* \\
+                \epsilon/|\mathcal{A}(S_t)| & \text{if } a \neq A^*
+                \end{cases}
+                \]
+            \end{itemize}
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+\newpage
+
+
+\end{document}
