@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.1)  1 MAY 2026 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.1)  2 MAY 2026 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,76 +484,149 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrary3d.code.tex
+) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen292
+\lightrulewidth=\dimen293
+\cmidrulewidth=\dimen294
+\belowrulesep=\dimen295
+\belowbottomsep=\dimen296
+\aboverulesep=\dimen297
+\abovetopsep=\dimen298
+\cmidrulesep=\dimen299
+\cmidrulekern=\dimen300
+\defaultaddspace=\dimen301
+\@cmidla=\count343
+\@cmidlb=\count344
+\@aboverulesep=\dimen302
+\@belowrulesep=\dimen303
+\@thisruleclass=\count345
+\@lastruleclass=\count346
+\@thisrulewidth=\dimen304
+) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2026-04-15 v3.5.4 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count347
+\l__siunitx_number_exponent_fixed_int=\count348
+\l__siunitx_number_min_decimal_int=\count349
+\l__siunitx_number_min_integer_int=\count350
+\l__siunitx_number_round_precision_int=\count351
+\l__siunitx_number_lower_threshold_int=\count352
+\l__siunitx_number_upper_threshold_int=\count353
+\l__siunitx_number_group_first_int=\count354
+\l__siunitx_number_group_size_int=\count355
+\l__siunitx_number_group_min_int=\count356
+\l__siunitx_number_group_minimum_int=\count357
+\l__siunitx_compound_count_int=\count358
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box68
+\l__siunitx_table_tmp_dim=\dimen305
+\l__siunitx_table_column_width_dim=\dimen306
+\l__siunitx_table_integer_box=\box69
+\l__siunitx_table_decimal_box=\box70
+\l__siunitx_table_uncert_box=\box71
+\l__siunitx_table_before_box=\box72
+\l__siunitx_table_after_box=\box73
+\l__siunitx_table_before_dim=\dimen307
+\l__siunitx_table_carry_dim=\dimen308
+\l__siunitx_unit_tmp_int=\count359
+\l__siunitx_unit_position_int=\count360
+\l__siunitx_unit_total_int=\count361
+\l__siunitx_sexagesimal_tmp_dim=\dimen309
+\l__siunitx_sexagesimal_marker_box=\box74
+\l__siunitx_sexagesimal_unit_box=\box75
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen310
+\ar@mcellbox=\box76
+\extrarowheight=\dimen311
+\NC@list=\toks37
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box77
+)) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks37
-\t@pgfplots@tokb=\toks38
-\t@pgfplots@tokc=\toks39
-\pgfplots@tmpa=\dimen292
-\c@pgfplots@coordindex=\count343
-\c@pgfplots@scanlineindex=\count344
+\t@pgfplots@toka=\toks38
+\t@pgfplots@tokb=\toks39
+\t@pgfplots@tokc=\toks40
+\pgfplots@tmpa=\dimen312
+\c@pgfplots@coordindex=\count362
+\c@pgfplots@scanlineindex=\count363
  (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
 (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count345
+\c@pgfplotsarray@tmp=\count364
 ) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count346
-\t@pgfplotstable@a=\toks43
+\c@pgfplotstable@counta=\count365
+\t@pgfplotstable@a=\toks44
 ) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count347
+\c@pgfplotslibrarysurf@no=\count366
  (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen293
-\pgfdecoratedremainingdistance=\dimen294
-\pgfdecoratedinputsegmentcompleteddistance=\dimen295
-\pgfdecoratedinputsegmentremainingdistance=\dimen296
-\pgf@decorate@distancetomove=\dimen297
-\pgf@decorate@repeatstate=\count348
-\pgfdecorationsegmentamplitude=\dimen298
-\pgfdecorationsegmentlength=\dimen299
+\pgfdecoratedcompleteddistance=\dimen313
+\pgfdecoratedremainingdistance=\dimen314
+\pgfdecoratedinputsegmentcompleteddistance=\dimen315
+\pgfdecoratedinputsegmentremainingdistance=\dimen316
+\pgf@decorate@distancetomove=\dimen317
+\pgf@decorate@repeatstate=\count367
+\pgfdecorationsegmentamplitude=\dimen318
+\pgfdecorationsegmentlength=\dimen319
 )
-\tikz@lib@dec@box=\box68
+\tikz@lib@dec@box=\box78
 ) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count349
-\pgfplots@xmin@reg=\dimen300
-\pgfplots@xmax@reg=\dimen301
-\pgfplots@ymin@reg=\dimen302
-\pgfplots@ymax@reg=\dimen303
-\pgfplots@zmin@reg=\dimen304
-\pgfplots@zmax@reg=\dimen305
+\pgfplots@numplots=\count368
+\pgfplots@xmin@reg=\dimen320
+\pgfplots@xmax@reg=\dimen321
+\pgfplots@ymin@reg=\dimen322
+\pgfplots@ymax@reg=\dimen323
+\pgfplots@zmin@reg=\dimen324
+\pgfplots@zmax@reg=\dimen325
 ) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+)))
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 20.
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count350
-) (646_Homework_3.aux)
+\l__color_backend_stack_int=\count369
+) (646_Homework_3.aux
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:lhd_results' multiply defined.
+
+
+LaTeX Warning: Label `fig:best_design_run' multiply defined.
+
+)
 \openout1 = `646_Homework_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -591,17 +664,17 @@ LaTeX Font Info:    ... okay on input line 18.
 
 (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count351
-\scratchdimen=\dimen306
-\scratchbox=\box69
-\nofMPsegments=\count352
-\nofMParguments=\count353
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count354
-\MPscratchDim=\dimen307
-\MPnumerator=\count355
-\makeMPintoPDFobject=\count356
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count370
+\scratchdimen=\dimen326
+\scratchbox=\box79
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen327
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks46
 ) (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -612,18 +685,30 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count357
-Package hyperref Info: Link coloring OFF on input line 18.
+\c@lstlisting=\count376
+Package hyperref Info: Link coloring OFF on input line 20.
  (646_Homework_3.out) (646_Homework_3.out)
 \@outlinefile=\write4
 \openout4 = `646_Homework_3.out'.
 
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 20.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 [1
 
-{C:/Users/minip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (646_Homework_3.toc)
+{C:/Users/minip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (646_Homework_3.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `646_Homework_3.toc'.
 
@@ -631,35 +716,47 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \newpage
-              [1]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
- (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
- (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2] [3] (646_Homework_3.aux)
+l.44 \newpage
+              [1] [2] [3]
+<Homework 3 onpolicy learning curve.png, id=89, 722.7pt x 433.62pt>
+File: Homework 3 onpolicy learning curve.png Graphic file (type png)
+<use Homework 3 onpolicy learning curve.png>
+Package pdftex.def Info: Homework 3 onpolicy learning curve.png  used on input line 164.
+(pdftex.def)             Requested size: 362.37569pt x 217.4248pt.
+ [4] [5 <./Homework 3 onpolicy learning curve.png>]
+<Homework 3 off policy learning curve.png, id=114, 722.7pt x 433.62pt>
+File: Homework 3 off policy learning curve.png Graphic file (type png)
+<use Homework 3 off policy learning curve.png>
+Package pdftex.def Info: Homework 3 off policy learning curve.png  used on input line 261.
+(pdftex.def)             Requested size: 362.37569pt x 217.4248pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7 <./Homework 3 off policy learning curve.png>] (646_Homework_3.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `646_Homework_3.out' has not changed.
-(rerunfilecheck)             Checksum: 6FD47AC432DDC444C97B687EA8BB7834;214.
+(rerunfilecheck)             Checksum: 395BB27BF35F42305E5998701C6459D3;1330.
  ) 
 Here is how much of TeX's memory you used:
- 32982 strings out of 467691
- 768931 string characters out of 5414988
- 1314338 words of memory out of 5000000
- 61543 multiletter control sequences out of 15000+600000
- 631620 words of font info for 55 fonts, out of 8000000 for 9000
+ 37192 strings out of 467691
+ 899249 string characters out of 5414988
+ 1408083 words of memory out of 5000000
+ 65692 multiletter control sequences out of 15000+600000
+ 636454 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,104p,774b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\minip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 646_Homework_3.pdf (4 pages, 134736 bytes).
+ 84i,10n,104p,1047b,1375s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\minip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on 646_Homework_3.pdf (8 pages, 314413 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 

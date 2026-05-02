@@ -218,6 +218,14 @@ INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary3d.code.tex
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary3d.code.tex
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplots.sty
@@ -300,6 +308,9 @@ OUTPUT 646_Homework_3.pdf
 INPUT .\646_Homework_3.out
 INPUT .\646_Homework_3.out
 OUTPUT 646_Homework_3.out
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
@@ -309,8 +320,6 @@ INPUT .\646_Homework_3.toc
 INPUT .\646_Homework_3.toc
 INPUT 646_Homework_3.toc
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT 646_Homework_3.toc
-INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
@@ -325,7 +334,41 @@ INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+OUTPUT 646_Homework_3.toc
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti8.tfm
+INPUT .\Homework 3 onpolicy learning curve.png
+INPUT .\Homework 3 onpolicy learning curve.png
+INPUT .\Homework 3 onpolicy learning curve.png
+INPUT .\Homework 3 onpolicy learning curve.png
+INPUT .\Homework 3 onpolicy learning curve.png
+INPUT .\Homework 3 onpolicy learning curve.png
+INPUT .\Homework 3 onpolicy learning curve.png
+INPUT .\Homework 3 off policy learning curve.png
+INPUT .\Homework 3 off policy learning curve.png
+INPUT .\Homework 3 off policy learning curve.png
+INPUT .\Homework 3 off policy learning curve.png
+INPUT .\Homework 3 off policy learning curve.png
+INPUT .\Homework 3 off policy learning curve.png
+INPUT .\Homework 3 off policy learning curve.png
 INPUT 646_Homework_3.aux
 INPUT .\646_Homework_3.out
 INPUT .\646_Homework_3.out
@@ -335,21 +378,31 @@ INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti8.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti8.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\minip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
