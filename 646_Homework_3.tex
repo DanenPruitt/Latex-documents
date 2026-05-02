@@ -264,5 +264,49 @@ One major difference we see between on and off policy is the clock time each imp
 The EETDR reached here is much lower than the one found with on-policy MCC only reaching approximately $150$. This gives credence to the claim that off-policy learns slower than on-policy. Given more runs results may have been different.
 
 \section{Algorithm Comparisons}
-
+Below are both learning curves.
+\begin{figure}[h!]
+     \centering
+     % First Subfigure
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Homework 3 onpolicy learning curve.png}
+         \caption{On-Policy Learning Curve}
+         \label{fig:on_policy}
+     \end{subfigure}
+     \hfill % Adds space between the two images
+     % Second Subfigure
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Homework 3 off policy learning curve.png}
+         \caption{Off-Policy Learning Curve}
+         \label{fig:off_policy}
+     \end{subfigure}
+     
+     \caption{Side-by-side comparison of learning curves.}
+     \label{fig:comparison}
+\end{figure}
+Though they have different scales on the vertical axis, it is clear that the on-policy learning curve plateaus at about $200-250$ episodes while the off-policy learning curve seems to still be rising at $500$ episodes. We also notice that the on-policy confidence interval narrows while the off-policy confidence interval broadens. This is due to the source of stocasticity in the two implementations. On-policy's stocasticity comes primarily from the environment while off-policy's stocasticity comes from the application of weighted importance sampling. This increased varaince is another reason off-policy is a slower learner compared to on-policy.
+\newline
+\begin{table}[ht]
+    \centering
+    \singlespacing 
+    \caption{Top Algorithm Design Runs}
+    \label{tab:lhd_results}
+    \small 
+    \setlength{\tabcolsep}{0pt} 
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r r r r r r r r} % Added an extra 'r' here
+        \toprule
+        \textbf{Policy} & \textbf{Alg.} & \textbf{Time} & \multicolumn{2}{c}{\textbf{Max EETDR}} & \multicolumn{2}{c}{\textbf{Time-Avg EETDR}} & \multicolumn{2}{c}{\textbf{Superlative Policy}} \\
+        \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} % Adjusted cmidrule spans
+        \textbf{on/off} & \textbf{Score} & \textbf{(sec)} & \textbf{Mean} & \textbf{95ME} & \textbf{Mean} & \textbf{95ME} & \textbf{EETDR} & \textbf{95\% HW} \\
+        \midrule
+        On & 408.09 & 254.587 & 479.49 & 14.84 & 360.74 & 37.49 & 500.00 & 0.00 \\
+        Off & 119.14 & 64.237 & 157.39 & 16.25 & 91.38 & 5.25 & 202.15 & 6.35 \\
+        \bottomrule
+    \end{tabular*}
+\end{table}
+Comparing the metrics between the two best design runs, we see that the superlative on-policy ,as noted before, was able to max out the reward as well as get close to maxing out in the $Max EETDR$ column. The off-policy run however didn't even get a majority of the possible reward in any column. 
+\newline
+For this specific problem the on-policy algorithm is the most appropriate and stronger option. The $CartPole-v1$ envoronment is a reward dense environment where the agent needs to learn a very delicate and specific policy to succeed. This does not lend itself well to the exploratory nature of the off-policy algorithm so the more strict on-policy algorithm is more appropriate and finds the optimal policy much faster than the off-policy algorithm.
 \end{document}
