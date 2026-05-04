@@ -44,17 +44,17 @@
 \newpage
 
 \section{Introduction}
-In this write up we will be looking at the differences between application of on-policy and off-policy Monte Carlo Control (MCC) to the Farama Foundation Gymnasium \textit{CartPole-v1} environment which consists of a pole hinged on a cart that can be moved left or right. The goal is to keep the pole vertical at each step and the agent is rewarded for every step the pole remains reasonably upright. The application of on-policy and off-policy MCC to this environment helps to illustrate the differences between these approaches particularly with regards to policy imporvement and convergence.
+In this write up we will be looking at the differences between application of on-policy and off-policy Monte Carlo Control (MCC) to the Farama Foundation Gymnasium \textit{CartPole-v1} environment which consists of a pole hinged on a cart that can be moved left or right. The goal is to keep the pole vertical at each step and the agent is rewarded for every step the pole remains reasonably upright. The application of on-policy and off-policy MCC to this environment helps illustrate the differences between these approaches particularly with regards to policy imporvement and convergence.
 \subsection{Implementation}
-The implementations in this write up utilize Python and the OpenAI Gymnasium library to construct the environment and deploy the Monte Carlo Control (MCC) algorithms. While the full code is available in the appendix and accompanying files, several implementation details will be highlighted here. Both the on-policy and off-policy MCC experiments were derived from Handout 8, and were subsequently modified into callable functions within the $Homework_3.py$ script. The experimental setup consisted of 60 design runs, each comprising 10 replications with 500 episodes per replication. To monitor performance, every 25th training episode was designated as a milestone and evaluated using the following code block:
+The implementations in this write up utilize Python and the OpenAI Gymnasium library to construct the environment and deploy the Monte Carlo Control (MCC) algorithms. While the full code is available in the accompanying files, several implementation details will be highlighted here. Both the on-policy and off-policy MCC experiments were derived from Handout 8, and were subsequently modified into callable functions within the $Homework\_3.py$ script. The experimental setup consisted of 60 design runs, comprised of 10 replications with 500 episodes per replication. To monitor performance, every 25th training episode was designated as a milestone and evaluated using the following code block:
 \begin{verbatim}
     if m % test_freq == 0:
                 mean, hw = evaluate_policy_test(Q, phi, env, num_test_reps)
                 GzmTest.append((z, m, mean, hw))
                 update_best_scores(mean, hw, Q, best_scores)
 \end{verbatim}
-The $evaluate\_policy\_test$ and $update\_best\_scores$ functions are previously defined helper functions to aid in the readability and efficiency of the script. These evaluated values are then used to compute our $Mean MaxEETDR$ and $Mean Time-AvgEETDR$ as well as form the one-sided $95\%$ confidence intervals.
-Both implementations used seeds for reproducibility but rather than setting static seeds for entire scripts, they were defined by function and use. In the $LHC\_tuning\_on/off.py$ scripts, the variable $seed$ was set equal to 1 to control the Latin Hypercube design sampling within the $LatinHypercubeSampling()$ function. Within the $mcc\_experiment\_on/off\_policy()$ functions, a variable called $offset$ was set to 0. This variable is later used to set seeds for both numpy and the environment as $np.random.seed(int(z*1e6+m+offset))$ and $env.reset(seed=int(z*1e6+m+offset))$ where $z$ is the replication index and $m$ is the episode index. The combined formula ensures unique seeds per episode while still being reproducible across multiple runs. The same is true in the seed for our $evaluate\_policy\_test()$ function with $seed = seed\_mult*1000+rep$ where see\_mult is 1 by default and 2 when testing the superlative policy and rep is the test episode index.
+The $evaluate\_policy\_test$ and $update\_best\_scores$ functions are previously defined helper functions to aid in the readability and efficiency of the script. These evaluated values are then used to compute our $Mean MaxEETDR$ and $Mean Time-AvgEETDR$ as well as form the $95\%$ confidence intervals.
+Both implementations used seeds for reproducibility but rather than setting static seeds for entire scripts, they were defined by function and use. In the $LHC\_tuning\_on/off.py$ scripts, the variable $seed$ was set equal to 1 to control the Latin Hypercube design sampling within the $LatinHypercubeSampling()$ function. Within the $mcc\_experiment\_on/off\_policy()$ functions, theseeds were set for both numpy and the environment as $np.random.seed(int(z*1e6+m+offset))$ and $env.reset(seed=int(z*1e6+m+offset))$ where $z$ is the replication index, $m$ is the episode index, and $offset$ which was se to zero for these experiements. The combined formula ensures unique seeds per episode while still being reproducible across multiple runs. The same is true in the seed for our $evaluate\_policy\_test()$ function with $seed = seed\_mult*1000+rep$ where $seed\_mult$ is 1 by default and 2 when testing the superlative policy and rep is the test episode index.
 
 \section{On-Policy MCC}
 In on-policy MCC, the agent learns about a policy while following that same policy. The agent generates episodes by interacting with the environment using the current policy, and then updates the action-value function based on the returns received from the episodes experienced. The on-policy MCC algorithm can be summarized as follows:
@@ -121,11 +121,11 @@ The primary hyperparameters in question for us are $\bar{Q}_0$ the optimistic in
     \end{tabular}
 \end{table}
 
-From these results we can conclude that $eps_a$ has the most impact on algorithm perfomance. This is very evident from the $F$ statistic of $7.5417$ in the ANOVA results and the high coefficient of $259.267$. That high coefficient tells us that for each unit increase in $eps_a$, the average reward per episode increases by that amount making it a very strong predictor of performance. 
+From these results we can conclude that $eps\_a$ has the most impact on algorithm perfomance. This is very evident from the $F$ statistic of $7.5417$ in the ANOVA results and the high coefficient of $259.267$. That high coefficient tells us that for each unit increase in $eps\_a$, the average reward per episode increases by that amount making it a very strong predictor of performance. 
 \newline
-According to the ANOVA results, $eps_b$ also has a significant impact on the performance of the model, but the OLS results show that it is a negative impact. This makes sense because as we develop the algorithm, we want to reduce the amount of exploration as we get closer to the terminal state. Thus if our exploration rate continues to be high, the model will continue to explore and perform suboptimally. 
+According to the ANOVA results, $eps\_b$ also has a significant impact on the performance of the model, but the OLS results show that it is a negative impact. This makes sense because as we develop the algorithm, we want to reduce the amount of exploration as we get closer to the terminal state. Thus if our exploration rate continues to be high, the model will continue to explore and perform suboptimally. 
 \newline
-According to both ANOVA and OLS results, $\bar{Q}_0$ is not extremely statistically significant with P-values of $0.128$ in both cases. However, there is apositive contribution to performance denoted by the positive coefficient of $146.2779$. Though it is not as strong of a predictor it does still contribute to performance and should be condisdered when tunining the algorithm.gm. 
+According to both ANOVA and OLS results, $\bar{Q}_0$ is not extremely statistically significant with P-values of $0.128$ in both cases. However, there is apositive contribution to performance denoted by the positive coefficient of $146.2779$. Though it is not as strong of a predictor it does still contribute to performance and should be condisdered when tunining the algorithm. 
 \subsection{Design Run Results}
 Below is a table of the top 10 algorithm desighm runs.
 \begin{table}[ht]
@@ -221,9 +221,9 @@ Again, the primary hyperparameters in question for us are $\bar{Q}_0$, $\epsilon
         \bottomrule
     \end{tabular}
 \end{table}
-Different from our on-policy results, $eps_b$ is the most significant hyperparameter by a significant margin. Since off-policy learns from the results of a behavior policy, that policy must have coverage. A higher $eps_b$ ensures that every possible state-action pair the target policy could visit is visited by the behavior policy and therefore the stong influnce demonstrated by our above results is not unsuprising. 
+Different from our on-policy results, $eps\_b$ is the most significant hyperparameter by a significant margin. Since off-policy learns from the results of a behavior policy, that policy must have coverage. A higher $eps\_b$ ensures that every possible state-action pair the target policy could visit is visited by the behavior policy and therefore the stong influnce demonstrated by our above results is to be expected. 
 
-
+\newpage
 \subsection{Design Run Results}
 Below is a table of the top 10 algorithm desighm runs.
 \begin{table}[ht]
@@ -255,12 +255,14 @@ Below is a table of the top 10 algorithm desighm runs.
         \footnotesize \textit{Note: Time (sec) represents mean execution time per replication. 95ME = 95\% Margin of Error; HW = Half-Width. Total experiment time: 539.827s.}
     \end{flushleft}
 \end{table}
+\newline
 One major difference we see between on and off policy is the clock time each implementation takes. Off-policy MCC terminates early when a non greedy action is encountered resulting in the algorithim computing less per episode than on-policy MCC. We also see that this has an effect on our overall algorithm scores and the EETDR of the superlative policy. Below is the learning curve for the best design run found with off-policy MCC.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Homework 3 off policy learning curve.png}
     \label{fig:best_design_run}
 \end{figure}
+\newline
 The EETDR reached here is much lower than the one found with on-policy MCC only reaching approximately $150$. This gives credence to the claim that off-policy learns slower than on-policy. Given more runs results may have been different.
 
 \section{Algorithm Comparisons}
@@ -286,6 +288,7 @@ Below are both learning curves.
      \caption{Side-by-side comparison of learning curves.}
      \label{fig:comparison}
 \end{figure}
+\newline
 Though they have different scales on the vertical axis, it is clear that the on-policy learning curve plateaus at about $200-250$ episodes while the off-policy learning curve seems to still be rising at $500$ episodes. We also notice that the on-policy confidence interval narrows while the off-policy confidence interval broadens. This is due to the source of stocasticity in the two implementations. On-policy's stocasticity comes primarily from the environment while off-policy's stocasticity comes from the application of weighted importance sampling. This increased varaince is another reason off-policy is a slower learner compared to on-policy.
 \newline
 \begin{table}[ht]
@@ -306,6 +309,7 @@ Though they have different scales on the vertical axis, it is clear that the on-
         \bottomrule
     \end{tabular*}
 \end{table}
+\newline
 Comparing the metrics between the two best design runs, we see that the superlative on-policy ,as noted before, was able to max out the reward as well as get close to maxing out in the $Max EETDR$ column. The off-policy run however didn't even get a majority of the possible reward in any column. 
 \newline
 For this specific problem the on-policy algorithm is the most appropriate and stronger option. The $CartPole-v1$ envoronment is a reward dense environment where the agent needs to learn a very delicate and specific policy to succeed. This does not lend itself well to the exploratory nature of the off-policy algorithm so the more strict on-policy algorithm is more appropriate and finds the optimal policy much faster than the off-policy algorithm.
