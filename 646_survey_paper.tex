@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usetikzlibrary{3d}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\geometry{a4paper, margin=1in}
+\doublespacing
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm} % Add vertical space at the top
+    
+    {\Huge \textbf{Homework 4}} \\
+    
+    \vspace{2cm}
+    
+    {\Large \textbf{Danen M. Pruitt}} \\
+    
+    \vspace{1.5cm}
+    
+    ENS, AFIT \\
+    OPER 646: Reinforcement Learning \\
+    May 2026
+    
+    \vfill % Pushes the following text to the bottom
+    
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+Reinforcement learning (RL) has undergone a significant shift by transitioning from a niche machine learning process into a foundational technology for autonomous decision-making in complex, real-world systems. Unlike supervised learning, which relies on static, labeled datasets to predict patterns, RL operates on an active learning principle. By interacting with a dynamic environment, an RL agent learns through a process of trial and error. It utilizes a feedback loop where actions are evaluated against a reward function, allowing the agent to optimize its behavior and develop strategies that maximize cumulative rewards over time. 
+\newline
+This envoronmental interaction is precisely what makes RL so powerful in unpredictable, real-world settings. Traditional control systems often rely on a single, static policy that may become obsolete as environmental conditions shift. However, an RL agent is designed to continually adapt its policy to the ever-changing state of its surroundings. This capability is crucial for bridging the gap between simulation and reality. Which is the notoriously difficult task of transferring an agent from a sterile simulation to the friction and noise of reality. Furthermore, the recent integration of RL with Large Language Models (LLMs) has provided these algorithms with a significant boost by combining high-level logical reasoning and long-horizon planning with low-level motor or logic control. Thus, RL has evolved from creating simple behavioral agents into developing sophisticated, effective collaborators.
+\newline
+As these technological barriers fall, the deployment of RL has accelerated across diverse sectors. In healthcare, it is being utilized to pioneer Personalized Medicine, where RL agents design dynamic treatment regimes that adjust in real-time to a patient’s physiological response. Beyond clinical settings, the application of RL is imporving soft robotics, autonomous vehicle navigation, and the management of smart electrical grids. It has even proven essential in industrial sustainability, where it is used to optimize HVAC controls and energy consumption in large-scale facilities by balancing comfort with extreme operational efficiency.
+\newline
+The primary objective of this survey is to examine how these RL applications are being apllied and purpose built to the specific complexities of the nuclear fuel cycle. The scope ranges from initial core loading and fuel assembly optimization to the complex logistics of waste management and chemical reprocessing. To ensure a high standard of technical relevance, the papers analyzed in this review were selected from Q1 and Q2 journals published between 2020 and the present. These selections represent the current state-of-the-art methods for applying reinforcement learning to the unique safety, precision, and regulatory requirements of the nuclear industry.
+
+\newpage
+\section{Methodology}
+These 12 papers were selected specifically from journals that are ranked Q1 or Q2 in the Scimago Journal Ranker or was a top 20 journal or conference proceeding as ranked by google scholar. The most efficient process used to find these areticles was to search Google Scholar using the following search string format:
+\begin{align}
+    \text{source:"Journal or Conference", "Reinforcement Learning and other key words"}
+\end{align}
+This allowed for certainty that the articles and sources found were from reputable sources while searching for specific usecases. The journals and conferences searched from included:
+\begin{itemize}
+    \item Nuclear Engineering and Design (Q1)
+    \item Nuclear Engineering and Technology (Q2)
+    \item Annals of Nuclear Energy (Q1)
+    \item Progress in Nuclear Energy (Q1)
+    \item Applied Energy (Top 20 - Engineering)
+    \item Energy (Q1)
+    \item IEEE Transactionon Nuclear Science (Q1)
+    \item IEEE International Conference on Robotics and Automation (Top 20)
+    \item American Nuclear Society Winter/Annual Meetings (Top 20)
+\end{itemize}
+Because there was not enough research on any one phase of the nuclear fule cycle, the following groups formed:
+\begin{itemize}
+    \item Reactor Design and Fuel Loading (7 papers)
+    \item Reactor Control and Monitoring (3 papers)
+    \item Spend Fule Management and Waste Disposal (2 papers)
+\end{itemize}
+The goal of looking at this rather large application domain was to see how the basics as well as the specifics of RL are used by various professionals in the nuclear industry. The primary use was found in design and fuel loading which is a very difficult task to plan for and optimize which will be discussed later. 
+
+\newpage
+\section{Summaries}
+\end{document}
