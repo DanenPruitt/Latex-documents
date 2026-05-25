@@ -5,4 +5,5 @@
 \contentsline {section}{\numberline {5}Algorithm Comparison}{7}{section.5}%
 \contentsline {section}{\numberline {6}Momentum Policy Comparison}{7}{section.6}%
 \contentsline {section}{\numberline {7}Reflection}{9}{section.7}%
-\contentsline {section}{\numberline {8}Appendix: Reinforcement Learning Hyperparameter Design Runs \& Statistical Reports}{10}{section.8}%
+\contentsline {section}{\numberline {8}AI Usage}{10}{section.8}%
+\contentsline {section}{\numberline {9}Appendix: Reinforcement Learning Hyperparameter Design Runs \& Statistical Reports}{10}{section.9}%

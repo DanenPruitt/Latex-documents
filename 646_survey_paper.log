@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.1)  19 MAY 2026 14:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.1)  25 MAY 2026 08:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/minip/Desktop/Latex-documents/646_Homework_4.tex
-(c:/Users/minip/Desktop/Latex-documents/646_Homework_4.tex
+**c:/Users/minip/Desktop/Latex-documents/646_survey_paper.tex
+(c:/Users/minip/Desktop/Latex-documents/646_survey_paper.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -596,8 +596,8 @@ Package translations Info: No language package found. I am going to use `english
  (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count369
-) (646_Homework_4.aux)
-\openout1 = `646_Homework_4.aux'.
+) (646_survey_paper.aux)
+\openout1 = `646_survey_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -677,9 +677,9 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count376
 Package hyperref Info: Link coloring OFF on input line 20.
- (646_Homework_4.out) (646_Homework_4.out)
+ (646_survey_paper.out) (646_survey_paper.out)
 \@outlinefile=\write4
-\openout4 = `646_Homework_4.out'.
+\openout4 = `646_survey_paper.out'.
 
  (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
@@ -690,150 +690,48 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 [1
 
-{C:/Users/minip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (646_Homework_4.toc)
+{C:/Users/minip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (646_survey_paper.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
-\openout5 = `646_Homework_4.toc'.
+\openout5 = `646_survey_paper.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.44 \newpage
-              [1]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
- (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
- (C:\Users\minip\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<SARSA LC.png, id=64, 1110.0672pt x 544.9158pt>
-File: SARSA LC.png Graphic file (type png)
-<use SARSA LC.png>
-Package pdftex.def Info: SARSA LC.png  used on input line 79.
-(pdftex.def)             Requested size: 362.37569pt x 177.87712pt.
- [2 <./SARSA LC.png>]
+              [1] [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 84--115
 
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 92.
+ []
 
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 111.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 131.
-
-[3]
-<Q_Learning LC.png, id=89, 462.528pt x 346.896pt>
-File: Q_Learning LC.png Graphic file (type png)
-<use Q_Learning LC.png>
-Package pdftex.def Info: Q_Learning LC.png  used on input line 179.
-(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
- [4 <./Q_Learning LC.png>]
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 194.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 213.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 234.
-
-[5]
-<N_step sarsa LC.png, id=103, 462.528pt x 346.896pt>
-File: N_step sarsa LC.png Graphic file (type png)
-<use N_step sarsa LC.png>
-Package pdftex.def Info: N_step sarsa LC.png  used on input line 281.
-(pdftex.def)             Requested size: 317.07614pt x 237.81816pt.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 293.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 312.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 334.
-
-[6 <./N_step sarsa LC.png>]
-<Q_learning LC.png, id=115, 462.528pt x 346.896pt>
-File: Q_learning LC.png Graphic file (type png)
-<use Q_learning LC.png>
-Package pdftex.def Info: Q_learning LC.png  used on input line 382.
-(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-File: N_step sarsa LC.png Graphic file (type png)
-<use N_step sarsa LC.png>
-Package pdftex.def Info: N_step sarsa LC.png  used on input line 390.
-(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-File: SARSA LC.png Graphic file (type png)
-<use SARSA LC.png>
-Package pdftex.def Info: SARSA LC.png  used on input line 399.
-(pdftex.def)             Requested size: 407.66833pt x 200.11072pt.
-<Policy perfomrance comparison.png, id=116, 722.7pt x 505.89pt>
-File: Policy perfomrance comparison.png Graphic file (type png)
-<use Policy perfomrance comparison.png>
-Package pdftex.def Info: Policy perfomrance comparison.png  used on input line 419.
-(pdftex.def)             Requested size: 362.37569pt x 253.66226pt.
- [7] [8 <./Q_learning LC.png>] [9 <./Policy perfomrance comparison.png>]
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 461.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 494.
-
-[10]
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 559.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 592.
-
-[11
-
-]
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 657.
-
-
-Package subcaption Warning: `subfigure' is treated as `subtable'
-(subcaption)                 on input line 697.
-
-[12
-
-] (646_Homework_4.aux)
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] (646_survey_paper.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-Package rerunfilecheck Info: File `646_Homework_4.out' has not changed.
-(rerunfilecheck)             Checksum: E9EA854F3903596AE71005B797BFC03F;1349.
+Package rerunfilecheck Info: File `646_survey_paper.out' has not changed.
+(rerunfilecheck)             Checksum: 19BA175C87DC597169E80D034AABEA97;1636.
  ) 
 Here is how much of TeX's memory you used:
- 37282 strings out of 467691
- 900970 string characters out of 5414988
- 1439083 words of memory out of 5000000
- 65778 multiletter control sequences out of 15000+600000
- 639197 words of font info for 85 fonts, out of 8000000 for 9000
+ 37115 strings out of 467691
+ 897772 string characters out of 5414988
+ 1405085 words of memory out of 5000000
+ 65645 multiletter control sequences out of 15000+600000
+ 632225 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,104p,845b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 646_Homework_4.pdf (13 pages, 483553 bytes).
+ 84i,18n,104p,1341b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\minip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/minip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on 646_survey_paper.pdf (14 pages, 152814 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
